@@ -33,7 +33,7 @@ str1 = "Welcome"
 print(str1*2)
 
 
-str1 = "My salary is 7000";
+str1 = "My salary is 7000"
 str2 = "7000"
 
 print(str1.isdigit())
