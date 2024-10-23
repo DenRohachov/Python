@@ -66,15 +66,15 @@
 # count_vowels("softserve")
 
 
-def count_vowels(word):
-    x = 0
-    gls = ["a", "e", "i", "o", "u"]
-    for i in word:
-        if i in gls:
-            x += 1
-    return x
+# def count_vowels(word):
+#     x = 0
+#     gls = ["a", "e", "i", "o", "u"]
+#     for i in word:
+#         if i in gls:
+#             x += 1
+#     return x
         
-print(count_vowels("Celebration"))
+# print(count_vowels("Celebration"))
 
 
 
@@ -89,17 +89,54 @@ print(count_vowels("Celebration"))
         
 
 
-def mean(number):
-    a = 0
-    b = 0
-    for i in number:
-        print(i)
-        a = i
-        b += 1
-        c = i + a
-        print(c)
-    return a, b
+# def mean(number):
+#     b = 0
+#     for i in str(number):
+#         a = i
+#         b += 1
+#         c = a
+#     print()  
+#     return a, b
 
-print(mean("512"))
+# print(mean(42))
 
-# (5+1+2)/3(number of digits) = 8/3=3).
+
+# def integer_boolean(binary_number):
+#       for i in str(binary_number):
+#         print(i)
+#         if int(i) % 2 == 0:
+#             num = False
+#             print(num)
+#         else:
+#             print(num)
+#             num = True
+        
+#       return num
+
+# integer_boolean("123456")
+
+
+# def is_isogram(word):
+#     low_word = word.lower
+#     for i in low_word:
+#         if i in low_word:
+#             print(i)
+#             return True
+#         else:
+#             return False
+
+# is_isogram("Denis")
+
+
+
+
+# def mean(number):
+#     a = str(number)
+#     b = 0
+#     c = []
+#     for i in str(number):
+#         b += 1
+#     print(a,b,c)
+#     return a, b, c
+
+# mean(512)
