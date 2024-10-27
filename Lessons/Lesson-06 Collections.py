@@ -182,4 +182,3 @@ for i in d:
 print("як достати ключи")
 for key, values in d.items():
     print(key,values)
-
