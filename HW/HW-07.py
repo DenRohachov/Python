@@ -1,5 +1,6 @@
 ### HW 07 Function
 # 07.2 Quiz for Topic 7
+print("# 07.2 Quiz for Topic 7")
 
 
 def output_param(x,y,z):
@@ -44,3 +45,18 @@ def func():
 
 func()
 print(counter)
+
+
+# 07.1 Practical tasks / [GitHub Topic 7]
+print()
+print("07.1 Practical tasks / [GitHub Topic 7]")
+
+
+def numbers(a,b):
+    if a > b:
+        print(a)
+        return(a)
+    else:
+        print(b)
+        return(b)
+numbers(10,40)
